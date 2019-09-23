@@ -1,0 +1,1 @@
+python -m baselines.run --alg=deepq --env=CartPole-v0 --save_path=/mnt/research/judy/reward_shaping/baselines/a2c/cartpole_model_from_scratch.pkl --num_timesteps=1e5 --log_path=/mnt/research/judy/reward_shaping/baselines/a2c/cartpole_train_from_scratch_log
