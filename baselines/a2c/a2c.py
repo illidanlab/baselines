@@ -210,6 +210,9 @@ def learn(
         obs, states, rewards, masks, actions, values, epinfos = runner.run()
         epinfobuf.extend(epinfos)
 
+        ##### add reward-shaping #####
+        ##### add reward-shaping #####
+
         policy_loss, value_loss, policy_entropy = model.train(obs, states, rewards, masks, actions, values)
         nseconds = time.time()-tstart
 
